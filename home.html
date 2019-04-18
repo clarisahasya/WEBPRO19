@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://asset.kompas.com/data/2017/wp/css/kcm2017-wp.min.css?v=29" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <style>
+            #log-reg{
+                color: orange;
+            }
+            #log-reg:hover{
+                color: white;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav navbar-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://kompas.id" target="_blank">Harian Kompas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.kompas.tv" target="_blank">Kompas TV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link network--hot" href="javascript:void(0)" onclick="popupCenter('http://indeks.kompas.com/radio/sonora','Kompas.com Radio Streaming', '980','650');" data-badge="New">Live Radio</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.kompasiana.com" target="_blank">Kompasiana.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.kompaskarier.com" target="_blank">Kompaskarier.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.gramedia.com" target="_blank">Gramedia.com</a>
+                        </li>
+                        <li class="nav=item">
+                            <a class="nav-link" href="http://www.gridoto.com" target="_blank">GridOto.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.bolasport.com" target="_blank">Bolasport.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.grid.id" target="_blank">Grid.id</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.kontan.co.id" target="_blank">Kontan.co.id</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.kgmedia.id" target="_blank">Kgmedia.id</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-dark black">
+                <div class="container-fluid">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.kompas.com">
+                                <img src="https://asset.kompas.com/data/2017/wp/images/logo-kompascom-jmd.png?v=2" alt="www.kompas.com">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://nasional.kompas.com/read/2018/10/17/08133311/kompascom-tersertifikasi-dalam-jaringan-internasional-penguji-informasi" data-type="tooltips" data-placement="right" data-text="International Fact-Checking Network " class="logo__awards__link" tabindex="0">
+                                <img src="https://asset.kompas.com/data/2017/wp/images/logo-ifcn.png" style="opacity: 1; width: 70px;" alt="">
+                                <div class="tooltips tooltips--right">
+                                    <span>International Fact-Checking Network </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-left">
+                        <li class="nav-item">
+                            <form class="navbar-form navbar-left" action="https://search.kompas.com/search/">
+                                <input class="form__input form__input__header" id="search" type="text" name="q" placeholder="Search">
+                                <input class="form__button form__button__header" type="submit" name="submit">
+                                <span class="search--icon">
+                                    <svg class="icon icon-search" title="icon-search">
+                                        <use xlink:href="#icon-search"></use>
+                                    </svg>
+                                </span>
+                            </form >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="log-reg" href="https://sso.kompas.com/register/a29tcGFz">Register  </a>
+                        </li>
+                        <li class="nav-item" style="color: orange">
+                            <a class="nav-link" style="cursor: default; color: orange"> | </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="log-reg" href="https://sso.kompas.com/login/a29tcGFz/aHR0cDovL3d3dy5rb21wYXMuY29t" >Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" href="https://gerai.kompas.id/kompaspremium/?utm_source=external_kompascom&amp;utm_medium=header_button_premium&amp;utm_campaign=kompascom" class="kid__button" data-gtm-vis-recent-on-screen-2485677_597="145757" data-gtm-vis-first-on-screen-2485677_597="145757" data-gtm-vis-total-visible-time-2485677_597="100" data-gtm-vis-has-fired-2485677_597="1">Premium</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav__item">
+                            <a target="" class="nav__link nav__link--money  " href="https://money.kompas.com">Money</a>
+                            <ul class="nav__sub nav__sub--money">
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://money.kompas.com/whatsnew">Whats New</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://money.kompas.com/earnsmart">Earn Smart</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://money.kompas.com/worksmart">Work Smart</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://money.kompas.com/spendsmart">Spend Smart</a>
+                                </li>
+                            
+                                                                <!-- Kilas BUMN -->
+                                <li class="nav__subitem">
+                                    <a target="_blank" class="nav__sublink nav__sublink--hot" href="http://kilasbumn.kompas.com">Kilas BUMN</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://money.kompas.com/search">Indeks</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a target="" class="nav__link nav__link--bola  " href="https://bola.kompas.com">Bola</a>
+                            <ul class="nav__sub nav__sub--bola">
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-indonesia">Indonesia</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-inggris">Inggris</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-italia">Italia</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-spanyol">Spanyol</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-jerman">Jerman</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-champions">Champions</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/internasional">Internasional</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/liga-lain">Liga Lain</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/corner">Corner</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://olahraga.kompas.com">Olahraga</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://bola.kompas.com/search">Indeks</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a target="" class="nav__link nav__link--tekno  " href="https://tekno.kompas.com">Tekno</a>
+                            <ul class="nav__sub nav__sub--tekno">
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/apps-os">APPS &amp; OS</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/gadget">Gadget</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/internet">Internet</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/hardware">Hardware</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/business">Business</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/galeri">Galeri</a>
+                                </li>
+                                <li class="nav__subitem">
+                                    <a target="" class="nav__sublink " href="https://tekno.kompas.com/search">Indeks</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- end of header -->
+
+        <br><br><br><br><br>
+
+        
+        <div class="container">
+            <div class="row">
+                <!-- headline -->
+                <div class="col-bs10-7">
+                    <div class="carousel slide carousel-thumbnails" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="headline__subtitle">Headline</div>
+                                <img src="https://asset.kompas.com/crop/416x59:1600x849/740x500/data/photo/2019/04/08/763045237.jpg" alt="Cerita Prabowo Gebrak Podium Saat Bicara soal TNI/Polri dalam Kampanye di Yogyakarta">
+                                <div class="carousel-caption d-none d-md-block headline__big__box">
+                                    <h1>Cerita Prabowo Gebrak Podium Saat Bicara soal TNI/Polri dalam Kampanye di Yogyakarta</h1>
+                                    <p>09/04/2019, 07:00 WIB</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="headline__subtitle">Headline</div>
+                                <img src="https://asset.kompas.com/crop/265x21:1542x872/740x500/data/photo/2019/04/08/1795786288.jpg" alt="Menjawab Sindiran Komikus Jepang soal Utang MRT Jakarta">
+                                <div class="carousel-caption d-none d-md-block headline__big__box">
+                                    <h1>Menjawab Sindiran Komikus Jepang soal Utang MRT Jakarta</h1>
+                                    <p>09/04/2019, 06:56 WIB</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="headline__subtitle">Headline</div>
+                                <img src="https://asset.kompas.com/crop/0x6:946x637/740x500/data/photo/2019/04/07/3833454094.jpg" alt="PDI-P: Rakyat Pilih Pemimpin yang Gebrak Hambatan, Bukan Gebrak Meja">
+                                <div class="carousel-caption d-none d-md-block headline__big__box">
+                                    <h1>PDI-P: Rakyat Pilih Pemimpin yang Gebrak Hambatan, Bukan Gebrak Meja</h1>
+                                    <p>09/04/2019, 08:36 WIB</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="headline__subtitle">Headline</div>
+                                <img src="https://asset.kompas.com/crop/0x0:780x390/740x500/data/photo/2013/03/15/2038002-penganiayaan-780x390.jpg" alt="Gara-gara Komentar soal Cowok di Facebook, 12 Siswi SMA Keroyok Siswi SMP di Pontianak">
+                                <div class="carousel-caption d-none d-md-block headline__big__box">
+                                    <h1>Gara-gara Komentar soal Cowok di Facebook, 12 Siswi SMA Keroyok Siswi SMP di Pontianak</h1>
+                                    <p>09/04/2019, 08:03 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <ul class="headline__thumb clearfix slick-initialized slick-slider" role="listbox"> 
+                            <li class="headline__thumb__item slick-slide slick-active" data-target="#carousel-thumb" data-slick-index="0" class="active"> <img class="d-block"
+                                src="https://asset.kompas.com/crop/416x59:1600x849/740x500/data/photo/2019/04/08/763045237.jpg" class="img">
+                            </li>
+                            <li class="headline__thumb__item slick-slide slick-active" data-target="#carousel-thumb" data-slick-index="1"><img class="d-block"
+                                src="https://asset.kompas.com/crop/265x21:1542x872/740x500/data/photo/2019/04/08/1795786288.jpg" class="img">
+                            </li>
+                            <li class="headline__thumb__item slick-slide slick-active" data-target="#carousel-thumb" data-slick-index="2"><img class="d-block"
+                                src="https://asset.kompas.com/crop/0x6:946x637/740x500/data/photo/2019/04/07/3833454094.jpg" class="img">
+                            </li>
+                            <li class="headline__thumb__item slick-slide slick-active" data-target="#carousel-thumb" data-slick-index ="3"><img class="d-block"
+                                src="https://asset.kompas.com/crop/0x0:780x390/740x500/data/photo/2013/03/15/2038002-penganiayaan-780x390.jpg" class="img">
+                            </li>
+                        </ul> -->
+                        <ul class="headline__thumb__row clearfix js-hl-thumb slick-initialized slick-slider bg-dark">
+                            <div aria-live="polite" class="slick-list draggable">
+                                <div class="slick-track" role="listbox" style="color:white; opacity: 1; width: 740px; transform: translate3d(0px, 0px, 0px);">
+                                    <li class="headline__thumb__item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide10" style="width: 185px;">
+                                        <div class="headline__thumb__img">
+                                            <img src="https://asset.kompas.com/crop/416x59:1600x849/185x124/data/photo/2019/04/08/763045237.jpg" alt="Cerita Prabowo Gebrak Podium Saat Bicara soal TNI/Polri dalam Kampanye di Yogyakarta">
+                                        </div>
+                                        <a class="headline__thumb__link" href="https://regional.kompas.com/read/2019/04/09/07000041/cerita-prabowo-gebrak-podium-saat-bicara-soal-tnipolri-dalam-kampanye-di" tabindex="0">
+                                            <h2 class="headline__thumb__title headline__md__box">Cerita Prabowo Gebrak Podium Saat Bicara soal TNI/Polri dalam Kampanye di Yogyakarta</h2>
+                                        </a>
+                                    </li>
+                                    <li class="headline__thumb__item slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide11" style="width: 185px;">
+                                        <div class="headline__thumb__img"><img src="https://asset.kompas.com/crop/265x21:1542x872/185x124/data/photo/2019/04/08/1795786288.jpg" alt="Menjawab Sindiran Komikus Jepang soal Utang MRT Jakarta"></div>
+                                        <a class="headline__thumb__link" href="https://megapolitan.kompas.com/read/2019/04/09/06560061/menjawab-sindiran-komikus-jepang-soal-utang-mrt-jakarta" tabindex="0">
+                                            <h2 class="headline__thumb__title">Menjawab Sindiran Komikus Jepang soal Utang MRT Jakarta</h2>
+                                        </a>
+                                    </li>
+                                    <li class="headline__thumb__item slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide12" style="width: 185px;">
+                                        <div class="headline__thumb__img"><img src="https://asset.kompas.com/crop/0x6:946x637/185x124/data/photo/2019/04/07/3833454094.jpg" alt="PDI-P: Rakyat Pilih Pemimpin yang Gebrak Hambatan, Bukan Gebrak Meja"></div>
+                                        <a class="headline__thumb__link" href="https://nasional.kompas.com/read/2019/04/09/08361261/pdi-p-rakyat-pilih-pemimpin-yang-gebrak-hambatan-bukan-gebrak-meja" tabindex="0">
+                                            <h2 class="headline__thumb__title">PDI-P: Rakyat Pilih Pemimpin yang Gebrak Hambatan, Bukan Gebrak Meja</h2>
+                                        </a>
+                                    </li>
+                                    <li class="headline__thumb__item slick-slide slick-current slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide13" style="width: 185px;">
+                                        <div class="headline__thumb__img"><img src="https://asset.kompas.com/crop/0x0:780x390/185x124/data/photo/2013/03/15/2038002-penganiayaan-780x390.jpg" alt="Gara-gara Komentar soal Cowok di Facebook, 12 Siswi SMA Keroyok Siswi SMP di Pontianak"></div>
+                                        <a class="headline__thumb__link" href="https://regional.kompas.com/read/2019/04/09/08033931/gara-gara-komentar-soal-cowok-di-facebook-12-siswi-sma-keroyok-siswi-smp-di" tabindex="0">
+                                            <h2 class="headline__thumb__title">Gara-gara Komentar soal Cowok di Facebook, 12 Siswi SMA Keroyok Siswi SMP di Pontianak</h2>
+                                        </a>
+                                    </li>
+                                </div>
+                            </div>        
+                        </ul>
+                    </div>
+                </div>
+                <!-- end of headline -->
+        
+                <!-- social media -->
+                <div class="col-bs10-3">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="social__block clearfix">
+                        <div class="social__block__teaser">Follow us</div>
+                        <div class="social social--header clearfix">
+                            <div class="social__item"><a class="social__link social__link--facebook" target="_blank" href="http://www.facebook.com/kompascom">
+                                <svg class="icon icon-facebook" title="icon-facebook">
+                                <use xlink:href="#icon-facebook"></use>
+                                </svg></a>
+                            </div>
+                            <div class="social__item"><a class="social__link social__link--twitter" target="_blank" href="http://www.twitter.com/kompascom">
+                                <svg class="icon icon-twitter" title="icon-twitter">
+                                <use xlink:href="#icon-twitter"></use>
+                                </svg></a>
+                            </div>
+                            <div class="social__item"><a class="social__link social__link--instagram" target="_blank" href="http://instagram.com/kompascom">
+                                <svg class="icon icon-instagram" title="icon-instagram">
+                                <use xlink:href="#icon-instagram"></use>
+                                </svg></a>
+                            </div>
+                            <div class="social__item"><a class="social__link social__link--line" target="_blank" href="https://line.me/ti/p/%40kompas.com">
+                                <svg class="icon icon-line" title="icon-line">
+                                <use xlink:href="#icon-line"></use>
+                                </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of social media -->
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="container">
+            <div class="row mt2 col-offset-fluid clearfix">
+                <!-- sorotan -->
+                <div class="col-bs10-7">
+                    <div class="title clearfix">
+                        <h2 class="title__content">Sorotan</h2>
+                    </div>
+                    <br>
+                    <div class="row article__grid col-offset-fluid clearfix">
+                        <div class="col-bs9-3">
+                            <div class="article__grid">
+                                <div class="article__boxsubtitle ">
+                                    <div class="article__subtitle">NEWS</div>
+                                </div>
+                                <div class="article__asset">
+                                    <a href="https://edukasi.kompas.com/read/2019/04/09/08020971/pendaftaran-sekolah-kedinasan-dibuka-hari-ini-cek-kuotanya-di-sini"><img src="https://asset.kompas.com/crop/0x6:300x206/230x153/data/photo/2019/04/09/3042722424.png" alt="Pendaftaran Sekolah Kedinasan Dibuka Hari Ini, Cek Kuotanya di Sini"></a>
+                                </div>
+                                <div class="article__box">
+                                    <h3 class="article__title">
+                                        <a class="article__link" href="https://edukasi.kompas.com/read/2019/04/09/08020971/pendaftaran-sekolah-kedinasan-dibuka-hari-ini-cek-kuotanya-di-sini">Pendaftaran Sekolah Kedinasan Dibuka Hari Ini, Cek Kuotanya di Sini</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-bs9-3">
+                            <div class="article__grid">
+                                <div class="article__boxsubtitle ">
+                                    <div class="article__subtitle">BOLA</div>
+                                </div>
+                                <div class="article__asset">
+                                    <a href="https://bola.kompas.com/read/2019/04/09/06245068/jadwal-final-piala-presiden-2019-sore-ini-persebaya-vs-arema"><img src="https://asset.kompas.com/crop/0x0:698x465/230x153/data/photo/2019/04/09/575270652.jpg" alt="Jadwal Final Piala Presiden 2019, Sore Ini Persebaya Vs Arema "></a>
+                                </div>
+                                <div class="article__box">
+                                    <h3 class="article__title">
+                                        <a class="article__link" href="https://bola.kompas.com/read/2019/04/09/06245068/jadwal-final-piala-presiden-2019-sore-ini-persebaya-vs-arema">Jadwal Final Piala Presiden 2019, Sore Ini Persebaya Vs Arema </a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of sorotan -->
+                <!-- kompas.id -->
+                <div class="col-bs10-3">
+                    <div class="title clearfix title--center">
+                        <h2 class="title__content">Kompas.id</h2>
+                    </div>
+                    <br>
+                    <div class="article__grid">
+                        <div class="article__boxsubtitle box--brandzview">
+                            <div class="article__subtitle"> Premium </div>
+                        </div>
+                        <div class="article__asset">
+                            <a class="article__link" href="https://kompas.id/baca/utama/2019/04/07/mochtar-embut-mars-pemilu-dan-merpati-pos/?utm_source=kompascom&amp;utm_medium=open_api_feeder&amp;utm_campaign=premium_articles" target="_blank" >
+                                <img src="https://kompas.id/wp-content/uploads/2019/04/20190405_PEMILU_G_web_1554458938-300x200.jpg" alt="Mochtar Embut, Mars Pemilu dan Merpati Pos" style="max-height: 200px;">
+                            </a>
+                        </div>
+                        <h4 class="article__title">
+                            <a class="article__link" href="https://kompas.id/baca/utama/2019/04/07/mochtar-embut-mars-pemilu-dan-merpati-pos/?utm_source=kompascom&amp;utm_medium=open_api_feeder&amp;utm_campaign=premium_articles" target="_blank" 
+                                >Mochtar Embut, Mars Pemilu dan Merpati Pos
+                            </a>
+                        </h4>
+                        <div class="article__footnote" >Baca selengkapnya di Kompas.id. Dapatkan akses penuh berita Kompas.id dengan berlangganan.</div>
+                    </div>
+                </div>
+                <!-- end of kompas.id -->
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+                <!-- berita terkini -->
+                <div class="col-bs10-7">
+                    <div class="title clearfix">
+                        <h2 class="title__content">Berita Terkini</h2>
+                        <a class="button button--default button--title pull-right" href="http://indeks.kompas.com/">Lihat Semua</a>
+                    </div>
+                    <br>
+                    <div class="article__list clearfix">
+                        <div class="article__list__asset clearfix">
+                            <div class="article__asset"><a href="https://otomotif.kompas.com/read/2019/04/09/092200515/ada-ubahan-pajak-ktm-tetap-pasang-target-3.600-unit-" target="_parent"><img src="https://asset.kompas.com/crop/57x51:857x584/177x117/data/photo/2018/08/03/1974886427.jpg" alt="Ada Ubahan Pajak, KTM Tetap Pasang Target 3.600 Unit "></a></div>
+                        </div>
+                        <div class="article__list__title">
+                            <h3 class="article__title article__title--medium"><a class="article__link" href="https://otomotif.kompas.com/read/2019/04/09/092200515/ada-ubahan-pajak-ktm-tetap-pasang-target-3.600-unit-" target="_parent">Ada Ubahan Pajak, KTM Tetap Pasang Target 3.600 Unit </a></h3></div>
+                        
+                        <div class="article__list__info">
+                            <div class="article__subtitle article__subtitle--inline ">OTOMOTIF</div>
+                            <div class="article__date">09/04/2019, 09:22 WIB</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="article__list clearfix">
+                        <div class="article__list__asset clearfix">
+                            <div class="article__asset"><a href="https://www.bolasport.com/read/311691293/live-streaming-rcti-liverpool-vs-porto-ulangan-laga-musim-lalu" target="_blank"><img src="https://asset-a.grid.id/crop/0x0:0x0/220x140/photo/2019/04/01/4277339243.jpg" alt="Live Streaming RCTI Liverpool Vs Porto - Ulangan Laga Musim Lalu"></a></div>
+                        </div>
+                        <div class="article__list__title">
+                            <h3 class="article__title article__title--medium"><a class="article__link" href="https://www.bolasport.com/read/311691293/live-streaming-rcti-liverpool-vs-porto-ulangan-laga-musim-lalu" target="_blank">Live Streaming RCTI Liverpool Vs Porto - Ulangan Laga Musim Lalu</a></h3>
+                        </div>
+                        
+                        <div class="article__list__info">
+                            <div class="article__subtitle article__subtitle--inline ">BOLASPORT</div>
+                            <div class="article__date">09/04/2019, 09:15 WIB</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="article__list clearfix">
+                        <div class="article__list__asset clearfix">
+                                <div class="article__asset"><a href="https://nasional.kompas.com/read/2019/04/09/09141931/selasa-sandiaga-berkampanye-di-bali-dan-nusa-tenggara-barat" target="_parent"><img src="https://asset.kompas.com/crop/98x0:941x562/177x117/data/photo/2019/04/08/3666211636.jpg" alt="Selasa, Sandiaga Berkampanye di Bali dan Nusa Tenggara Barat"></a></div>
+                        </div>
+                        <div class="article__list__title">
+                            <h3 class="article__title article__title--medium"><a class="article__link" href="https://nasional.kompas.com/read/2019/04/09/09141931/selasa-sandiaga-berkampanye-di-bali-dan-nusa-tenggara-barat" target="_parent">Selasa, Sandiaga Berkampanye di Bali dan Nusa Tenggara Barat</a></h3></div>
+                        
+                        <div class="article__list__info">
+                            <div class="article__subtitle article__subtitle--inline ">NEWS</div>
+                            <div class="article__date">09/04/2019, 09:14 WIB</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="article__list clearfix">
+                        <div class="article__list__asset clearfix">
+                                <div class="article__asset"><a href="https://entertainment.kompas.com/read/2019/04/09/091302610/yovie-nuno-menyapa-dengan-single-baru-di-selebrasi-sore-ini" target="_parent"><img src="https://asset.kompas.com/crop/0x0:1000x667/177x117/data/photo/2019/02/25/2551476244.jpg" alt="Yovie &amp; Nuno Menyapa dengan Single Baru di Selebrasi Sore Ini"></a></div>
+                        </div>
+                        <div class="article__list__title">
+                            <h3 class="article__title article__title--medium"><a class="article__link" href="https://entertainment.kompas.com/read/2019/04/09/091302610/yovie-nuno-menyapa-dengan-single-baru-di-selebrasi-sore-ini" target="_parent">Yovie &amp; Nuno Menyapa dengan Single Baru di Selebrasi Sore Ini</a></h3></div>
+                        
+                        <div class="article__list__info">
+                            <div class="article__subtitle article__subtitle--inline ">ENTERTAINMENT</div>
+                            <div class="article__date">09/04/2019, 09:13 WIB</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="article__list clearfix">
+                        <div class="article__list__asset clearfix">
+                                <div class="article__asset"><a href="https://bebas.kompas.id/baca/utama/2019/04/09/baru-11-persen-unit-usaha-kreatif-hak-intelektual/?utm_source=external_kompascom&amp;utm_medium=berita_terkini&amp;utm_campaign=kompascom" target="_parent"><img src="https://bebas.kompas.id/wp-content/uploads/sites/315/2019/04/IMG_20181208_121437_1544345801-300x200.jpg" alt="Baru 11 Persen Unit Usaha Kreatif Hak Intelektual"></a></div>
+                        </div>
+                        <div class="article__list__title">
+                            <h3 class="article__title article__title--medium"><a class="article__link" href="https://bebas.kompas.id/baca/utama/2019/04/09/baru-11-persen-unit-usaha-kreatif-hak-intelektual/?utm_source=external_kompascom&amp;utm_medium=berita_terkini&amp;utm_campaign=kompascom" target="_parent">Baru 11 Persen Unit Usaha Kreatif Hak Intelektual</a></h3></div>
+                        
+                        <div class="article__list__info">
+                            <div class="article__subtitle article__subtitle--inline ">KOMPAS.ID PREMIUM</div>
+                            <div class="article__date">09/04/2019, 07:00 WIB</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- end of berita terkini -->
+                <!-- terpopuler -->
+                <div class="col-bs10-3">
+                    <div class="title title--center clearfix">
+                        <h2 class="title__content">Terpopuler</h2>
+                    </div>
+                    <br>
+                    <div class="most__wrap clearfix">
+                        <div class="most__list  clearfix">
+                            <div class="most__count">1</div>
+                            <a class="most__link" href="https://entertainment.kompas.com/read/2019/04/08/221300210/karenina-sunny-menangis-saat-tahu-steve-emmanuel-terancam-hukuman-mati">
+                            <h4 class="most__title">Karenina Sunny Menangis Saat Tahu Steve Emmanuel Terancam Hukuman Mati</h4>
+                            <div class="most__read">Dibaca 37.826 kali</div>
+                            </a>
+                        </div>
+                        <div class="most__list  clearfix">
+                            <div class="most__count">2</div>
+                                <a class="most__link" href="https://megapolitan.kompas.com/read/2019/04/08/22393811/utang-mrt-jakarta-ke-jepang-akan-lunas-dalam-40-tahun">
+                                <h4 class="most__title">Utang MRT Jakarta ke Jepang Akan Lunas Dalam 40 Tahun</h4>
+                                <div class="most__read">Dibaca 10.739 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">3</div>
+                                <a class="most__link" href="https://megapolitan.kompas.com/read/2019/04/09/06560061/menjawab-sindiran-komikus-jepang-soal-utang-mrt-jakarta">
+                                <h4 class="most__title">Menjawab Sindiran Komikus Jepang soal Utang MRT Jakarta</h4>
+                                <div class="most__read">Dibaca 7.297 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">4</div>
+                                <a class="most__link" href="https://money.kompas.com/read/2019/04/09/050400726/diskon-hingga-65-persen-tiket-promo-garuda-indonesia-masih-tersedia-170.000">
+                                <h4 class="most__title">Diskon hingga 65 Persen, Tiket Promo Garuda Indonesia Masih Tersedia 170.000 Kursi</h4>
+                                <div class="most__read">Dibaca 6.850 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">5</div>
+                                <a class="most__link" href="https://nasional.kompas.com/read/2019/04/09/00012111/tgb-sebut-jokowi-layak-dipilih-karena-dikelilingi-orang-baik">
+                                <h4 class="most__title">TGB Sebut Jokowi Layak Dipilih karena Dikelilingi Orang Baik</h4>
+                                <div class="most__read">Dibaca 6.442 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">6</div>
+                                <a class="most__link" href="https://internasional.kompas.com/read/2019/04/09/05300051/garda-revolusi-iran-dimasukkan-daftar-teroris-bikin-militer-as-khawatir">
+                                <h4 class="most__title">Garda Revolusi Iran Dimasukkan Daftar Teroris Bikin Militer AS Khawatir, Mengapa?</h4>
+                                <div class="most__read">Dibaca 5.611 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">7</div>
+                                <a class="most__link" href="https://money.kompas.com/read/2019/04/09/063400126/jika-terpilih-prabowo-buka-opsi-batalkan-sejumlah-proyek-infrastruktur-jokowi">
+                                <h4 class="most__title">Jika Terpilih, Prabowo Buka Opsi Batalkan Sejumlah Proyek Infrastruktur Jokowi</h4>
+                                <div class="most__read">Dibaca 4.782 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">8</div>
+                                <a class="most__link" href="https://nasional.kompas.com/read/2019/04/08/21440261/pakai-akun-palsu-pelaku-lempar-hoaks-setting-an-server-kpu-dan-menghilang">
+                                <h4 class="most__title">Pakai Akun Palsu, Pelaku Lempar Hoaks "Setting-an" Server KPU dan Menghilang</h4>
+                                <div class="most__read">Dibaca 4.346 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">9</div>
+                                <a class="most__link" href="https://regional.kompas.com/read/2019/04/09/07000041/cerita-prabowo-gebrak-podium-saat-bicara-soal-tnipolri-dalam-kampanye-di">
+                                <h4 class="most__title">Cerita Prabowo Gebrak Podium Saat Bicara soal TNI/Polri dalam Kampanye di Yogyakarta</h4>
+                                <div class="most__read">Dibaca 4.117 kali</div>
+                            </a>
+                        </div><div class="most__list  clearfix">
+                            <div class="most__count">10</div>
+                                <a class="most__link" href="https://internasional.kompas.com/read/2019/04/08/23485661/india-disebut-tidak-jatuhkan-satu-pun-jet-tempur-f-16-pakistan">
+                                <h4 class="most__title">India Disebut Tidak Jatuhkan Satu Pun Jet Tempur F-16 Pakistan</h4>
+                                <div class="most__read">Dibaca 3.906 kali</div>
+                            </a>
+                        </div>    
+                    </div>
+                </div>
+                <!-- end of terpopuler -->
+            </div>
+        </div>
+
+        <br><br>
+
+
+    </body>
+</html>
